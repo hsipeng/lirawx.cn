@@ -120,6 +120,12 @@ const webpackConfig = merge(baseWebpackConfig, {
       },
       {
         from: path.resolve(__dirname, '../README.md'),
+      },
+      {
+        from: path.resolve(__dirname, '../favicon.ico'),
+      },
+      {
+        from: path.resolve(__dirname, '../robots.txt'),
       }
     ])
   ]
