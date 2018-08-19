@@ -12,14 +12,14 @@ notifications:
 
 # S: Build Lifecycle
 install:
-  - npm install
+  - yarn
 
 #before_script:
  # - npm install -g gulp
 #node genmd.js
 
 script:
-  - npm run build
+  - yarn build
 
 after_script:
   - cd ./dist
@@ -39,5 +39,5 @@ branches:
     - source
 env:
  global:
-   - GH_REF: git@github.com:lirawx/lirawx.cn.git
+   - GH_REF: github.com/lirawx/lirawx.cn.git
    - CO_REF: git.coding.net/lirawx/lirawx.cn.git
