@@ -11,7 +11,7 @@
       <p><span>Life is short, let it be undefined;</span></p>
     </div>
     <footer>
-      @ <a href="https://lirawx.me">lirawx.me</a>&nbsp;&nbsp; Since 2018
+      @ <a href="http://lirawx.me">lirawx.me</a>&nbsp;&nbsp; Since 2018
       <p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
 
     </footer>
